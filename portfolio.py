@@ -85,13 +85,15 @@ st.markdown("""
     - Developed troubleshooting protocols for Ava robot systems, resulting in a 11% performance improvement.<br>
     - Updated Ava Robot’s OS and optimized resources, leading to smoother and faster task execution.<br>
     - Developed APIs for communication between robot components and external systems, boosting system integration and task automation.<br><br>
-    
+ </p>
+<p>   
     <strong>Swan Turbine Services, Hyderabad, India</strong><br>
     Engineering Intern<br>
     May 2023 – July 2023<br>
     - Assisted in managing production processes and inventory control, improving resource allocation efficiency.<br>
     - Involved in departmental operations and project management, enhancing cross-functional workflow.<br><br>
-    
+ </p>
+<p>   
     <strong>FANUC, India</strong><br>
     Trainee<br>
     Oct 2022 – Nov 2022<br>
@@ -103,7 +105,7 @@ st.markdown("""
     Aug 2024 – Present<br>
     - Enhanced tutoring experience by troubleshooting system performance issues and optimizing equipment use.<br>
     - Increased drop-in tutoring center outreach through student interactions, enhancing the academic support system.
-</p>
+ </p>
 """, unsafe_allow_html=True)
 
 # Projects Section
