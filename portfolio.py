@@ -42,27 +42,9 @@ with col1:
         I have hands-on experience in developing and optimizing robotic systems, and I am always eager to take on new challenges in the field of robotics and automation.
     </p>
     """, unsafe_allow_html=True)
-'''
-# About Me Section
-    st.markdown('<h2 class="medium-font">About Me</h2>', unsafe_allow_html=True)
-    st.markdown("""
-    <p class="small-font">
-        I am a passionate Robotics Engineer currently pursuing my Master's in Robotics at the University of Pennsylvania. 
-        My expertise lies in robotics, machine learning, computer vision, and human-computer interaction. 
-        I have hands-on experience in developing and optimizing robotic systems, and I am always eager to take on new challenges in the field of robotics and automation.
-    </p>
-    """, unsafe_allow_html=True)
-'''
+
 with col2:
     st.image(image, use_container_width=True)  # Adjust the width as needed to fit your layout
-
-
-# Header Section
-#st.markdown('<div><h1 class="big-font">Hema Priya Pothumarthi</h1></div>', unsafe_allow_html=True)
-#st.markdown('<p class="medium-font">Robotics Engineer | MS in Robotics at University of Pennsylvania</p>', unsafe_allow_html=True)
-#st.markdown('<p class="small-font">Email: hemapothumarthi@gmail.com | Phone: (267)-261-2654 | <a href="https://github.com/hpriyap">GitHub</a> | <a href="https://www.linkedin.com/in/hema-priya-pothumarthi-2752001p26">LinkedIn</a></p>', unsafe_allow_html=True)
-
-
 
 
 # Education Section
