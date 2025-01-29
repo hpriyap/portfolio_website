@@ -99,7 +99,8 @@ st.markdown("""
     Oct 2022 – Nov 2022<br>
     - Trained in programming and simulating multiple FANUC robots using Roboguide software.<br>
     - Applied this knowledge to calibrate and train a 6-axis SCARA Robot for multiple pick-and-place and assembly operations.<br><br>
-    
+ </p>
+<p>    
     <strong>University of Pennsylvania</strong><br>
     Graduate Monitor, Weingarten Tutoring Center<br>
     Aug 2024 – Present<br>
