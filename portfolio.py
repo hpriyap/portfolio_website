@@ -8,7 +8,7 @@ st.set_page_config(page_title="Hema Priya Pothumarthi - Portfolio", page_icon=":
 st.markdown("""
 <style>
     body {
-        background-color: #bcb4a1;  /* Light blue background */
+        background-color: #A58672;  /* Light blue background */
     }
 
     .big-font {
