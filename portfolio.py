@@ -36,8 +36,8 @@ with col1:
     st.markdown('<p class="small-font">Email: hemapothumarthi@gmail.com | Phone: (267)-261-2654 | <a href="https://github.com/hpriyap">GitHub</a> | <a href="https://www.linkedin.com/in/hema-priya-pothumarthi-2752001p26">LinkedIn</a></p>', unsafe_allow_html=True)
 
 # About Me Section
-st.markdown('<h2 class="medium-font">About Me</h2>', unsafe_allow_html=True)
-st.markdown("""
+    st.markdown('<h2 class="medium-font">About Me</h2>', unsafe_allow_html=True)
+    st.markdown("""
     <p class="small-font">
         I am a passionate Robotics Engineer currently pursuing my Master's in Robotics at the University of Pennsylvania. 
         My expertise lies in robotics, machine learning, computer vision, and human-computer interaction. 
