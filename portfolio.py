@@ -7,6 +7,10 @@ st.set_page_config(page_title="Hema Priya Pothumarthi - Portfolio", page_icon=":
 # Custom CSS for styling
 st.markdown("""
 <style>
+    body {
+        background-color: #bcb4a1;  /* Light blue background */
+    }
+
     .big-font {
         font-size:30px !important;
         font-weight: bold;
