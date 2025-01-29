@@ -56,7 +56,8 @@ st.markdown("""
     Aug 2023 – Dec 2025<br>
     Relevant Coursework: Machine Learning, Computer Vision, Linear Systems Theory, Human-Computer Interaction<br>
     GPA: 3.67/4.00<br><br>
-    
+</p>
+<p>   
     <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
     Bachelor of Technology in Mechanical Engineering<br>
     Aug 2019 – June 2023<br>
