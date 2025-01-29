@@ -36,7 +36,7 @@ with col1:
     st.markdown('<p class="small-font">Email: hemapothumarthi@gmail.com | Phone: (267)-261-2654 | <a href="https://github.com/hpriyap">GitHub</a> | <a href="https://www.linkedin.com/in/hema-priya-pothumarthi-2752001p26">LinkedIn</a></p>', unsafe_allow_html=True)
 
 with col2:
-    st.image(image, use_column_width=True)  # Adjust the width as needed to fit your layout
+    st.image(image, use_container_width=True)  # Adjust the width as needed to fit your layout
 
 
 # Header Section
