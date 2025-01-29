@@ -7,26 +7,26 @@ st.set_page_config(page_title="Hema Priya Pothumarthi - Portfolio", page_icon=":
 # Custom CSS for styling
 st.markdown("""
 <style>
-    .body {
-        background-color: #c3c1b4;
-    }
+            body {
+            background-color: #c3c1b4;
+            }
 
-    .big-font {
-        font-size:30px !important;
-        font-weight: bold;
-    }
-    .medium-font {
-        font-size:20px !important;
-    }
-    .small-font {
-        font-size:16px !important;
-    }
-    .header {
-        background-color: #f0f0f0;
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
+            .big-font {
+            font-size:30px !important;
+            font-weight: bold;
+            }
+            .medium-font {
+            font-size:20px !important;
+            }
+            .small-font {
+            font-size:16px !important;
+            }
+            .header {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            }
 </style>
 """, unsafe_allow_html=True)
 
