@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 # Set page configuration
 st.set_page_config(page_title="Hema Priya Pothumarthi - Portfolio", page_icon=":robot:", layout="wide")
@@ -25,10 +26,23 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+image = Image.open("picture.jpg")
+
+col1, col2 = st.columns([3, 1])
+
+with col1:
+    st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
+    st.markdown('<p class="medium-font">Robotics Engineer | MS in Robotics at University of Pennsylvania</p>', unsafe_allow_html=True)
+    st.markdown('<p class="small-font">Email: hemapothumarthi@gmail.com | Phone: (267)-261-2654 | <a href="https://github.com/hpriyap">GitHub</a> | <a href="https://www.linkedin.com/in/hema-priya-pothumarthi-2752001p26">LinkedIn</a></p>', unsafe_allow_html=True)
+
+with col2:
+    st.image(image, width=150)  # Adjust the width as needed to fit your layout
+
+
 # Header Section
-st.markdown('<div><h1 class="big-font">Hema Priya Pothumarthi</h1></div>', unsafe_allow_html=True)
-st.markdown('<p class="medium-font">Robotics Engineer | MS in Robotics at University of Pennsylvania</p>', unsafe_allow_html=True)
-st.markdown('<p class="small-font">Email: hemapothumarthi@gmail.com | Phone: (267)-261-2654 | <a href="https://github.com/hpriyap">GitHub</a> | <a href="https://www.linkedin.com/in/hema-priya-pothumarthi-2752001p26">LinkedIn</a></p>', unsafe_allow_html=True)
+#st.markdown('<div><h1 class="big-font">Hema Priya Pothumarthi</h1></div>', unsafe_allow_html=True)
+#st.markdown('<p class="medium-font">Robotics Engineer | MS in Robotics at University of Pennsylvania</p>', unsafe_allow_html=True)
+#st.markdown('<p class="small-font">Email: hemapothumarthi@gmail.com | Phone: (267)-261-2654 | <a href="https://github.com/hpriyap">GitHub</a> | <a href="https://www.linkedin.com/in/hema-priya-pothumarthi-2752001p26">LinkedIn</a></p>', unsafe_allow_html=True)
 
 # About Me Section
 st.markdown('<div><h2 class="medium-font">About Me</h2></div>', unsafe_allow_html=True)
