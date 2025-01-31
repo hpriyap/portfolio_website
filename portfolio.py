@@ -39,6 +39,42 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown(
+    """
+    <style>
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .header a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .header a:hover {
+            background-color: #ddd;
+        }
+    </style>
+    
+    <div class="header">
+        <a href="projects.py">Projects</a>
+        <a href="interests.py">Interests</a>
+        <a href="vision.py">Vision</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
 image = Image.open("picture.jpg")
 
 col1, col2 = st.columns([3, 1])
