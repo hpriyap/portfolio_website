@@ -4,9 +4,6 @@ from PIL import Image
 # Set page configuration
 st.set_page_config(page_title="Hema Priya Pothumarthi - Portfolio", page_icon=":robot:", layout="wide")
 
-# Navigation using buttons instead of sidebar
-page = st.selectbox("Navigate", ["Home", "Projects"], label_visibility="collapsed")
-
 # Custom CSS for styling
 st.markdown("""
 <style>
@@ -48,14 +45,14 @@ st.markdown(
         .nav-link {
             text-decoration: none;
             font-size: 15px;
-            font-weight: bold;
+            
             padding: 10px 15px;
             border-radius: 5px;
             background-color: #a9a095;
             color: black;
         }
         .nav-link:hover {
-            background-color: #ddd;
+            background-color: #a9a095;
         }
     </style>
     """,
