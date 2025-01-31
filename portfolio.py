@@ -9,7 +9,7 @@ st.markdown("""
 <style>
 
             .big-font {
-            font-size:30px !important;
+            font-size:50px !important;
             font-weight: bold;
             }
             .medium-font {
@@ -19,7 +19,7 @@ st.markdown("""
             font-size:16px !important;
             }
             .header {
-            background-color: #d0d8d3;
+            background-color: #a9a095;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
