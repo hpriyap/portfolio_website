@@ -19,7 +19,7 @@ st.markdown("""
             font-size:16px !important;
             }
             .header {
-            background-color: #f0f0f0;
+            background-color: #d0d8d3;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
