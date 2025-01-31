@@ -44,7 +44,6 @@ st.markdown(
     <style>
         .header {
             display: flex;
-            justify-content: center;
             align-items: center;
             gap: 20px;
             background-color: #a9a095;
