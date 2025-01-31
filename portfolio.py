@@ -42,34 +42,25 @@ st.markdown(
 st.markdown(
     """
     <style>
-        .header {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            background-color: #a9a095;
-            padding: 15px;
-            border-radius: 10px;
-        }
-        .header a {
+        .nav-link {
             text-decoration: none;
-            color: #333;
             font-size: 18px;
             font-weight: bold;
-            padding: 8px 12px;
+            padding: 10px 15px;
             border-radius: 5px;
-            transition: background-color 0.3s ease;
+            background-color: #f0f0f0;
+            color: black;
         }
-        .header a:hover {
+        .nav-link:hover {
             background-color: #ddd;
         }
     </style>
-    
-    <div class="header">
-        <a href="projects.py">Projects</a>
-        <a href="interests.py">Interests</a>
-        <a href="vision.py">Vision</a>
-    </div>
     """,
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    '<a class="nav-link" href="/projects" target="_self">Projects</a>',
     unsafe_allow_html=True
 )
 
