@@ -44,7 +44,7 @@ st.markdown(
     <style>
         .nav-link {
             text-decoration: none;
-            font-size: 18px;
+            font-size: 15px;
             font-weight: bold;
             padding: 10px 15px;
             border-radius: 5px;
