@@ -4,6 +4,9 @@ from PIL import Image
 # Set page configuration
 st.set_page_config(page_title="Hema Priya Pothumarthi - Portfolio", page_icon=":robot:", layout="wide")
 
+# Navigation using buttons instead of sidebar
+page = st.selectbox("Navigate", ["Home", "Projects"], label_visibility="collapsed")
+
 # Custom CSS for styling
 st.markdown("""
 <style>
