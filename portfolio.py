@@ -48,7 +48,7 @@ st.markdown(
             font-weight: bold;
             padding: 10px 15px;
             border-radius: 5px;
-            background-color: #f0f0f0;
+            background-color: #a9a095;
             color: black;
         }
         .nav-link:hover {
