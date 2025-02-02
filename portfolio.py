@@ -11,15 +11,15 @@ st.markdown("""
             .big-font {
             font-size:50px !important;
             font-weight: bold;
-            color: #5C4033;
+            color: #000000;
             }
             .medium-font {
             font-size:20px !important;
-            color: #5C4033;
+            color: #000000;
             }
             .small-font {
             font-size:16px !important;
-            color: #5C4033;
+            color: #000000;
             }
             .header {
             background-color: #a9a095;
