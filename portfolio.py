@@ -5,42 +5,33 @@ from PIL import Image
 st.set_page_config(page_title="Hema Priya Pothumarthi - Portfolio", page_icon=":robot:", layout="wide")
 
 # Custom CSS for styling
-st.markdown("""
-<style>
-
-            .big-font {
-            font-size:50px !important;
-            font-weight: bold;
-            color: #000000;
-            }
-            .medium-font {
-            font-size:20px !important;
-            color: #000000;
-            }
-            .small-font {
-            font-size:16px !important;
-            color: #000000;
-            }
-            .header {
-            background-color: #a9a095;
-            padding: 10px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            }
-</style>
-""", unsafe_allow_html=True)
 
 st.markdown(
     """
     <style>
     
     [data-testid="stAppViewContainer"] {
-        background-color: #bcb4a1;
+        background-color: #000000;
+    }
+    
+    [data-testid="stMain"] {
+        background-color: #000000;
+        padding: 50px 20px;
+    }
+    
+    .main-content {
+        background-color: #ffffff;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 st.markdown(
     """
@@ -67,6 +58,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown('<div class="main-content">', unsafe_allow_html=True)
 
 image = Image.open("picture.jpg")
 
@@ -174,3 +166,5 @@ st.markdown("""
     &copy; 2024 Hema Priya Pothumarthi. All rights reserved.
 </p>
 """, unsafe_allow_html=True)
+
+st.markdown('</div>', unsafe_allow_html=True)
