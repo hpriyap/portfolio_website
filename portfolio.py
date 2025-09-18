@@ -12,6 +12,7 @@ st.markdown(
     
     [data-testid="stAppViewContainer"] {
         background-color: #000000;
+        padding: 0;
     }
     
     [data-testid="stMain"] {
@@ -21,10 +22,11 @@ st.markdown(
     
     .main-content {
         background-color: #ffffff;
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
-        padding: 40px;
-        border-radius: 10px;
+        padding: 40px 60px;
+        min-height: 100vh;
+        border-radius: 15px;
         box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
     }
     </style>
