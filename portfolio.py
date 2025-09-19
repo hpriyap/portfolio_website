@@ -12,12 +12,12 @@ st.markdown(
     <style>
     
     [data-testid="stAppViewContainer"] {
-        background-color: #000000;
+        background-color: #171D1C;
         padding: 0;
     }
     
     [data-testid="stMain"] {
-        background-color: #000000;
+        background-color: #171D1C;
         padding: 50px 20px;
     }
     
@@ -57,11 +57,11 @@ st.markdown(
             
             padding: 10px 15px;
             border-radius: 5px;
-            background-color: #a9a095;
+            background-color: #BC7C9C;
             color: black;
         }
         .nav-link:hover {
-            background-color: #a9a095;
+            background-color: #A96DA3;
         }
     </style>
     """,
