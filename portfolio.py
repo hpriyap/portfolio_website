@@ -28,6 +28,7 @@ st.markdown(
         min-height: 100vh;
         border-radius: 15px;
         box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+        color: #000000;
     }
     </style>
     """,
@@ -64,7 +65,7 @@ st.markdown('<div class="main-content">', unsafe_allow_html=True)
 
 image = Image.open("picture.jpg")
 
-col1, col2 = st.columns([3, 1])
+col1, col2 = st.columns([2, 1])
 
 with col1:
     st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
