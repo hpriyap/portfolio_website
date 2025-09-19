@@ -32,6 +32,14 @@ st.markdown(
         min-height: calc(100vh - 100px);
     }
     
+    .header {
+    background-color: #BC7C9C;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+    }
+    
     .main-content {
         background-color: #ffffff;
         max-width: 1200px;
