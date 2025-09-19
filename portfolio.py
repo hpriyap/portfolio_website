@@ -56,12 +56,14 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
+
+st.markdown('<div class="main-content">', unsafe_allow_html=True)
+
 st.markdown(
     '<a class="nav-link" href="/projects" target="_self">Projects</a>',
     unsafe_allow_html=True
 )
-
-st.markdown('<div class="main-content">', unsafe_allow_html=True)
 
 image = Image.open("picture.jpg")
 
