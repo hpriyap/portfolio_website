@@ -21,27 +21,7 @@ st.markdown(
         padding: 50px 20px;
     }
     
-    [data-testid="stMain"] > div:first-child {
-        background-color: #ffffff !important;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 40px 60px;
-        border-radius: 15px;
-        box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
-        color: #000000;
-        min-height: calc(100vh - 100px);
-    }
     
-    .main-content {
-        background-color: #ffffff;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 40px 60px;
-        min-height: 100vh;
-        border-radius: 15px;
-        box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
-        color: #000000;
-    }
     </style>
     """,
     unsafe_allow_html=True
@@ -71,11 +51,11 @@ st.markdown(
         }
         .medium-font {
             font-size: 20px !important;
-            color: #000000 !important;
+            color: #ffffff !important;
         }
         .small-font {
             font-size: 16px !important;
-            color: #000000 !important;
+            color: #ffffff !important;
         }
         .header {
             padding: 10px;
