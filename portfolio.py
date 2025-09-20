@@ -44,6 +44,14 @@ st.markdown(
             background-color: #A96DA3;
         }
 
+        [data-testid="stSidebar"] {
+        display: none;
+        }
+
+        [data-testid="collapsedControl"] {
+        display: none;
+    }
+
         .big-font {
         font-size: 50px !important;
         font-weight: bold;
@@ -73,10 +81,7 @@ st.markdown(
 with st.container():
     
     
-    st.markdown(
-    '<a class="nav-link" href="/projects" target="_self">Projects</a>',
-    unsafe_allow_html=True
-    )
+    
 
     image = Image.open("picture.jpg")
 
@@ -96,6 +101,13 @@ with st.container():
         """, unsafe_allow_html=True)
 
     with col2:
+        st.markdown("""
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <a href="/projects" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 16px; font-weight: 500;">Projects</a>
+                        <a href="/interests" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 16px; font-weight: 500;">Interests</a>
+                        <a href="/passions" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 16px; font-weight: 500;">Passions</a>
+                    </div>
+                    """, unsafe_allow_html=True)
         st.image(image, use_container_width=True)  # Adjust the width as needed to fit your layout
 
 
