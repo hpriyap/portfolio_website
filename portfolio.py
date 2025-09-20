@@ -45,11 +45,19 @@ st.markdown(
         }
 
         [data-testid="stSidebar"] {
-        display: none;
+        display: none !important;
         }
 
         [data-testid="collapsedControl"] {
-        display: none;
+        display: none !important;
+        }
+
+        .css-1d391kg {
+        display: none !important;
+        }
+
+        [data-testid="stSidebarNav"] {
+        display: none !important;
     }
 
         .big-font {
@@ -80,9 +88,6 @@ st.markdown(
 
 with st.container():
     
-    
-    
-
     image = Image.open("picture.jpg")
 
     col1, col2 = st.columns([2, 1])
