@@ -70,7 +70,7 @@ st.markdown(
             color: #ffffff !important;
         }
         .hero-quote {
-        font-size: 35px !important;
+        font-size: 50px !important;
         font-weight: 300;
         color: #ffffff !important;
         margin: 20px 0 30px 0;
