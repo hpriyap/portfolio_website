@@ -69,9 +69,21 @@ st.markdown(
             font-size: 20px !important;
             color: #ffffff !important;
         }
+        .hero-quote {
+        font-size: 35px !important;
+        font-weight: 300;
+        color: #ffffff !important;
+        margin: 20px 0 30px 0;
+        line-height: 1.3;
+        font-style: italic;
+        }
         .small-font {
             font-size: 16px !important;
             color: #ffffff !important;
+        }
+        .small-font a {
+        color: #BC7C9C !important;
+        text-decoration: underline;
         }
         .header {
             padding: 10px;
@@ -87,23 +99,15 @@ st.markdown(
 
 
 with st.container():
-    
+ 
     image = Image.open("picture.jpg")
 
     col1, col2 = st.columns([2, 1])
 
     with col1:
         st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
-        st.markdown('<p class="medium-font">Robotics Engineer | MS in Robotics at University of Pennsylvania</p>', unsafe_allow_html=True)
-        st.markdown('<p class="small-font">Email: hemapothumarthi@gmail.com | Phone: (267)-261-2654 | <a href="https://github.com/hpriyap">GitHub</a> | <a href="https://www.linkedin.com/in/hema-priya-pothumarthi-2752001p26">LinkedIn</a></p>', unsafe_allow_html=True)
-        st.markdown("""
-        <h2 class="medium-font" style="margin-top: 10px;">About Me</h2>
-        <p class="small-font" style="margin-top: -10px;">
-            I am a passionate Robotics Engineer currently pursuing my Master's in Robotics at the University of Pennsylvania. 
-            My expertise lies in robotics, machine learning, computer vision, and human-computer interaction. 
-            I have hands-on experience in developing and optimizing robotic systems, and I am always eager to take on new challenges in the field of robotics and automation.
-        </p>
-        """, unsafe_allow_html=True)
+        st.markdown('<p class="hero-quote">"Building intelligent systems that bridge the gap between human creativity and robotic precision"</p>', unsafe_allow_html=True)
+        
 
     with col2:
         st.markdown("""
@@ -116,6 +120,18 @@ with st.container():
         st.image(image, use_container_width=True)  # Adjust the width as needed to fit your layout
 
 
+
+    st.markdown('<p class="medium-font">Robotics Engineer | MS in Robotics at University of Pennsylvania</p>', unsafe_allow_html=True)
+    st.markdown('<p class="small-font">Email: hemapothumarthi@gmail.com | Phone: (267)-261-2654 | <a href="https://github.com/hpriyap">GitHub</a> | <a href="https://www.linkedin.com/in/hema-priya-pothumarthi-2752001p26">LinkedIn</a></p>', unsafe_allow_html=True)
+    st.markdown("""
+                <h2 class="medium-font" style="margin-top: 10px;">About Me</h2>
+                <p class="small-font" style="margin-top: -10px;">
+                I am a passionate Robotics Engineer currently pursuing my Master's in Robotics at the University of Pennsylvania. 
+                My expertise lies in robotics, machine learning, computer vision, and human-computer interaction. 
+                I have hands-on experience in developing and optimizing robotic systems, and I am always eager to take on new challenges in the field of robotics and automation.
+                </p>
+                """, unsafe_allow_html=True)
+    
     # Education Section
     st.markdown('<div class="header"><h2 class="medium-font">Education</h2></div>', unsafe_allow_html=True)
     st.markdown("""
