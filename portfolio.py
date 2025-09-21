@@ -64,7 +64,7 @@ st.markdown(
         font-size: 50px !important;
         font-weight: bold;
         color: #A96DA3 !important;
-        margin-top: 40px;
+        margin-top: 40px !important;
         }
         .medium-font {
             font-size: 20px !important;
