@@ -101,25 +101,34 @@ st.markdown(
 
 
 with st.container():
- 
-    image = Image.open("picture.jpg")
 
-    col1, col2 = st.columns([2, 1])
-
-    with col1:
+    # Header row with name and navigation
+    header_col1, header_col2 = st.columns([2, 1])
+    
+    with header_col1:
         st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
-        st.markdown('<p class="hero-quote">"Building intelligent systems that bridge the gap between human creativity and robotic precision"</p>', unsafe_allow_html=True)
-        
-
-    with col2:
+    
+    with header_col2:
         st.markdown("""
-                    <div style="text-align: center; margin-bottom: 20px;">
-                        <a href="/projects" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 16px; font-weight: 500;">Projects</a>
-                        <a href="/interests" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 16px; font-weight: 500;">Interests</a>
-                        <a href="/passions" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 16px; font-weight: 500;">Passions</a>
-                    </div>
-                    """, unsafe_allow_html=True)
-        st.image(image, use_container_width=True)  # Adjust the width as needed to fit your layout
+        <div style="text-align: right; margin-top: 30px;">
+            <a href="/projects" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 16px; font-weight: 500;">Projects</a>
+            <a href="/interests" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 16px; font-weight: 500;">Interests</a>
+            <a href="/passions" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 16px; font-weight: 500;">Passions</a>
+        </div>
+        """, unsafe_allow_html=True)
+
+    # Content row with quote and image
+    image = Image.open("picture.jpg")
+    content_col1, content_col2 = st.columns([2, 1])
+    
+    with content_col1:
+        st.markdown('<p class="hero-quote">"Building intelligent systems that bridge the gap between human creativity and robotic precision"</p>', unsafe_allow_html=True)
+    
+    with content_col2:
+        st.image(image, use_container_width=True)
+ 
+    
+    
 
 
 
