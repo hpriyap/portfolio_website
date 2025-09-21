@@ -21,7 +21,6 @@ st.markdown(
         padding: 50px 20px;
     }
     
-    
     </style>
     """,
     unsafe_allow_html=True
@@ -35,7 +34,8 @@ st.markdown(
             text-decoration: none;
             font-size: 15px;
             
-            padding: 10px 15px;
+            padding-top: 10px !important;
+            margin-bottom: 50px !important;
             border-radius: 5px;
             background-color: #BC7C9C;
             color: black;
@@ -64,7 +64,7 @@ st.markdown(
         font-size: 50px !important;
         font-weight: bold;
         color: #A96DA3 !important;
-        margin-top: 40px !important;
+        /*margin-top: 40px !important; */
         }
         .medium-font {
             font-size: 20px !important;
