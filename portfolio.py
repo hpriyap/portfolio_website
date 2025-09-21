@@ -74,7 +74,8 @@ st.markdown(
         font-size: 50px !important;
         font-weight: 300;
         color: #ffffff !important;
-        margin: 150px 0 40px 0;
+        padding-top: 120px !important; 
+        margin-bottom: 40px;
         line-height: 1.3;
         font-style: italic;
         }
