@@ -36,7 +36,7 @@ st.markdown(
     <style>
         .nav-link {
             text-decoration: none;
-            font-size: 25px;
+            font-size: 20px;
             
             /*padding-top: 10px !important;*/
             margin-bottom: 10px !important;
@@ -115,9 +115,9 @@ with st.container():
     with header_col2:
         st.markdown("""
         <div style="text-align: right; margin-top: 30px;">
-            <a href="/projects" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 30px; font-weight: 500;">Projects</a>
-            <a href="/interests" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 30px; font-weight: 500;">Interests</a>
-            <a href="/passions" style="color: #BC7C9C; text-decoration: none; margin: 0 15px; font-size: 30px; font-weight: 500;">Passions</a>
+            <a href="/projects" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Projects</a>
+            <a href="/interests" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Interests</a>
+            <a href="/passions" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Passions</a>
         </div>
         """, unsafe_allow_html=True)
 
