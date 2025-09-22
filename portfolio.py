@@ -122,8 +122,16 @@ with st.container():
     content_col1, content_col2 = st.columns([2, 1])
     
     with content_col1:
-        st.markdown('<p class="hero-quote">"Building intelligent systems that bridge the gap between human creativity and robotic precision"</p>', unsafe_allow_html=True)
-    
+        st.markdown(
+            """
+            <p class="hero-quote">
+            "Empathy in design,<br>
+            technology in action,<br>
+            sustainability at the core."
+            </p>
+            """,
+            unsafe_allow_html=True
+            )
     with content_col2:
         st.image(image, use_container_width=True)
  
