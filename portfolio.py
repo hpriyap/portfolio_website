@@ -36,7 +36,7 @@ st.markdown(
     <style>
         .nav-link {
             text-decoration: none;
-            font-size: 15px;
+            font-size: 25px;
             
             /*padding-top: 10px !important;*/
             margin-bottom: 10px !important;
