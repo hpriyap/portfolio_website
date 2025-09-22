@@ -18,9 +18,13 @@ st.markdown(
     
     [data-testid="stMain"] {
         background-color: #171D1C;
-        padding: 50px 20px;
+        padding: 0px 20px 50px 20px;
     }
-    
+
+    .main .block-container {
+        padding-top: 20px !important; /* Minimal top padding */
+        padding-bottom: 0px;
+    }
     </style>
     """,
     unsafe_allow_html=True
@@ -35,7 +39,7 @@ st.markdown(
             font-size: 15px;
             
             /*padding-top: 10px !important;*/
-            margin-bottom: 50px !important;
+            margin-bottom: 10px !important;
             border-radius: 5px;
             background-color: #BC7C9C;
             color: black;
