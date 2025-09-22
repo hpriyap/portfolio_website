@@ -127,7 +127,7 @@ with st.container():
     try:
         image = Image.open("picture.jpg")
         # Resize image while maintaining aspect ratio and quality
-        image = image.resize((400, int(400 * image.height / image.width)), Image.Resampling.LANCZOS)
+        image = image.resize((300, int(300 * image.height / image.width)), Image.Resampling.LANCZOS)
     except FileNotFoundError:
         image = None
     
