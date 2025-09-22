@@ -122,7 +122,15 @@ with st.container():
         """, unsafe_allow_html=True)
 
     # Content row with quote and image
-    image = Image.open("picture.jpg")
+    
+    
+    try:
+        image = Image.open("picture.jpg")
+        # Resize image while maintaining aspect ratio and quality
+        image = image.resize((400, int(400 * image.height / image.width)), Image.Resampling.LANCZOS)
+    except FileNotFoundError:
+        image = None
+    
     content_col1, content_col2 = st.columns([2, 1])
     
     with content_col1:
@@ -137,7 +145,7 @@ with st.container():
             unsafe_allow_html=True
             )
     with content_col2:
-        st.image(image, width = 300)
+        st.image(image, use_container_width=True)
  
     
     
