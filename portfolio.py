@@ -137,7 +137,7 @@ with st.container():
             unsafe_allow_html=True
             )
     with content_col2:
-        st.image(image, use_container_width=True)
+        st.image(image, width = 250)
  
     
     
