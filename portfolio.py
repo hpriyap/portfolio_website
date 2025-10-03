@@ -129,10 +129,12 @@ st.markdown("""
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 """, unsafe_allow_html=True)
 
+st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
+'''
 with st.container():
 
-    st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
-    '''
+    
+    
     # Header row with name and navigation
     header_col1, header_col2 = st.columns([2, 1])
     
