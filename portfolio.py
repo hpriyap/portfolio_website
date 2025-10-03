@@ -173,7 +173,7 @@ with st.container():
         Relevant Coursework: Machine Learning, Computer Vision, Linear Systems Theory, Human-Computer Interaction<br>
         GPA: 3.67/4.00<br><br>
     </p>
-    <p>   
+    <p class="small-font">   
         <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
         Bachelor of Technology in Mechanical Engineering<br>
         Aug 2019 – June 2023<br>
@@ -202,21 +202,21 @@ with st.container():
         - Updated Ava Robot’s OS and optimized resources, leading to smoother and faster task execution.<br>
         - Developed APIs for communication between robot components and external systems, boosting system integration and task automation.<br><br>
     </p>
-    <p>   
+    <p class="small-font">   
         <strong>Swan Turbine Services, Hyderabad, India</strong><br>
         Engineering Intern<br>
         May 2023 – July 2023<br>
         - Assisted in managing production processes and inventory control, improving resource allocation efficiency.<br>
         - Involved in departmental operations and project management, enhancing cross-functional workflow.<br><br>
     </p>
-    <p>   
+    <p class="small-font">   
         <strong>FANUC, India</strong><br>
         Trainee<br>
         Oct 2022 – Nov 2022<br>
         - Trained in programming and simulating multiple FANUC robots using Roboguide software.<br>
         - Applied this knowledge to calibrate and train a 6-axis SCARA Robot for multiple pick-and-place and assembly operations.<br><br>
     </p>
-    <p>    
+    <p class="small-font">    
         <strong>University of Pennsylvania</strong><br>
         Graduate Monitor, Weingarten Tutoring Center<br>
         Aug 2024 – Present<br>
@@ -235,7 +235,7 @@ with st.container():
         - Organized community service events focusing on women’s menstrual health awareness and conducted educational and entertainment sessions for children across 4 orphanages.<br>
         - Fostered camaraderie and cohesion within the club by orchestrating 5 fellowship events.<br><br>
     </p>
-                <p>    
+    <p class="small-font">    
         <strong>Livewire Dance Crew, Collegiate Dance Club of VNRVJIET, Hyderabad</strong><br>
         - Managed and organized a team of 40 dancers, leading Livewire Dance Crew to multiple victories and enhancing its reputation.<br>
         - Handled finances, edited audio tracks, and managed social media ensuring efficient operations and increased crew reach.
