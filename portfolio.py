@@ -30,6 +30,18 @@ st.markdown(
     unsafe_allow_html=True
 ) 
 
+# Include AOS.js and AOS.css for scroll animations
+st.markdown("""
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true
+      });
+    </script>
+""", unsafe_allow_html=True)
+
 
 st.markdown(
     """
@@ -168,34 +180,34 @@ with st.container():
     <p class="small-font">
         <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
         Master of Science in Robotics (MSE)<br>
-        Aug 2023 – Dec 2025<br>
         Relevant Coursework: Machine Learning, Computer Vision, Linear Systems Theory, Human-Computer Interaction<br>
-        GPA: 3.67/4.00<br><br>
+        
     </p>
     <p class="small-font">   
         <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
         Bachelor of Technology in Mechanical Engineering<br>
-        Aug 2019 – June 2023<br>
-        GPA: 3.65/4.00
+        
     </p>
     """, unsafe_allow_html=True)
 
 
 
 # Education Section
-st.markdown('<div class="header"><h2 class="medium-font">Education</h2></div>', unsafe_allow_html=True)
+st.markdown("""
+    <div style="padding: 40px 0 30px 0;">
+        <h2 style="font-size: 48px; font-weight: 800; color: #F3A5C8; text-align: center;">Education</h2>
+    </div>
+""", unsafe_allow_html=True)
 
 edu_col1, edu_col2 = st.columns(2)
 
 with edu_col1:
     st.markdown("""
-    <div style="background-color: #ffffff10; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
+    <div data-aos="fade-up" style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); margin-bottom: 20px;">
         <h3 style="color: #F3A5C8; font-weight: bold;">Robotics Engineer</h3>
         <p class="small-font">
-            <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
-            Master of Science in Robotics (MSE)<br>
-            Aug 2023 – Dec 2025<br>
-            GPA: 3.67/4.00<br>
+            <strong>As certified by University of Pennsylvania, Philadelphia, PA</strong><br>
+            Master of Science in Robotics<br>
             <em>Relevant Coursework:</em> Machine Learning, Computer Vision, Linear Systems Theory, HCI
         </p>
     </div>
@@ -203,13 +215,11 @@ with edu_col1:
 
 with edu_col2:
     st.markdown("""
-    <div style="background-color: #ffffff10; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
+    <div data-aos="fade-up" data-aos-delay="200" style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); margin-bottom: 20px;">
         <h3 style="color: #F3A5C8; font-weight: bold;">Mechanical Engineer</h3>
         <p class="small-font">
-            <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
+            <strong>As Certified by VNRVJIET, Hyderabad, India</strong><br>
             Bachelor of Technology in Mechanical Engineering<br>
-            Aug 2019 – June 2023<br>
-            GPA: 3.65/4.00
         </p>
     </div>
     """, unsafe_allow_html=True)
