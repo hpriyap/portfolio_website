@@ -229,18 +229,18 @@ with edu_col2:
 
 
     # Technical Skills Section
-    st.markdown('<div class="header"><h2 class="medium-font">Technical Skills</h2></div>', unsafe_allow_html=True)
-    st.markdown("""
-    <p class="small-font">
-        <strong>Platforms/Tools/Frameworks:</strong> Solidworks, AutoCAD, Roboguide, Gazebo, MATLAB, PyTorch, NumPy, Pandas<br>
-        <strong>Operating Systems:</strong> Linux (Ubuntu), ROS, ROS2<br>
-        <strong>Programming Languages:</strong> Python, C, C++
-    </p>
-    """, unsafe_allow_html=True)
+st.markdown('<div class="header"><h2 class="medium-font">Technical Skills</h2></div>', unsafe_allow_html=True)
+st.markdown("""
+            <p class="small-font">
+            <strong>Platforms/Tools/Frameworks:</strong> Solidworks, AutoCAD, Roboguide, Gazebo, MATLAB, PyTorch, NumPy, Pandas<br>
+            <strong>Operating Systems:</strong> Linux (Ubuntu), ROS, ROS2<br>
+            <strong>Programming Languages:</strong> Python, C, C++
+        </p>
+            """, unsafe_allow_html=True)
 
     # Experience Section
-    st.markdown('<div class="header"><h2 class="medium-font">Experience</h2></div>', unsafe_allow_html=True)
-    st.markdown("""
+st.markdown('<div class="header"><h2 class="medium-font">Experience</h2></div>', unsafe_allow_html=True)
+st.markdown("""
     <p class="small-font">
         <strong>Ava Robotics, Somerville, MA</strong><br>
         Robotics Engineer Intern<br>
@@ -275,8 +275,8 @@ with edu_col2:
 
 
     # Leadership Section
-    st.markdown('<div class="header"><h2 class="medium-font">Leadership</h2></div>', unsafe_allow_html=True)
-    st.markdown("""
+st.markdown('<div class="header"><h2 class="medium-font">Leadership</h2></div>', unsafe_allow_html=True)
+st.markdown("""
     <p class="small-font">
         <strong>ROTARACT - Youth Wing of Rotary International, District 3150, India</strong><br>
         - Organized community service events focusing on women’s menstrual health awareness and conducted educational and entertainment sessions for children across 4 orphanages.<br>
@@ -290,7 +290,7 @@ with edu_col2:
     """, unsafe_allow_html=True)
 
     # Footer Section
-    st.markdown("""
+st.markdown("""
     <p class="small-font" style="text-align: center;">
         &copy; 2024 Hema Priya Pothumarthi. All rights reserved.
     </p>
