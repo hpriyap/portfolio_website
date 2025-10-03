@@ -148,18 +148,17 @@ with st.container():
         st.image(image, use_container_width=True)
  
     
+
     
-
-
-
-    st.markdown('<p class="medium-font">Robotics Engineer | MS in Robotics at University of Pennsylvania</p>', unsafe_allow_html=True)
-    st.markdown('<p class="small-font">Email: hemapothumarthi@gmail.com | Phone: (267)-261-2654 | <a href="https://github.com/hpriyap">GitHub</a> | <a href="https://www.linkedin.com/in/hema-priya-pothumarthi-2752001p26">LinkedIn</a></p>', unsafe_allow_html=True)
+    
     st.markdown("""
                 <h2 class="medium-font" style="margin-top: 10px;">About Me</h2>
                 <p class="small-font" style="margin-top: -10px;">
-                I am a passionate Robotics Engineer currently pursuing my Master's in Robotics at the University of Pennsylvania. 
-                My expertise lies in robotics, machine learning, computer vision, and human-computer interaction. 
-                I have hands-on experience in developing and optimizing robotic systems, and I am always eager to take on new challenges in the field of robotics and automation.
+                I am a passionate Robotics Engineer currently pursuing my Master's in Robotics at the University of Pennsylvania where I focus on bridging the gap between intelligent autonomy and real-world deployment. 
+                My core strength lies at the intersection of robotics, machine learning, computer vision and mechanical design. 
+                I bring a collaborative and system-level mindset, to cross-functional teams of mechanical, electrical, and software engineers to design scalable, reliable robotics solutions. 
+                Above all, I believe robotics should be people-centered, field-ready, and designed with empathy. 
+                My goal is to build intelligent machines that not only move through the world — but do so purposefully, efficiently, and safely alongside humans.
                 </p>
                 """, unsafe_allow_html=True)
     
@@ -180,6 +179,44 @@ with st.container():
         GPA: 3.65/4.00
     </p>
     """, unsafe_allow_html=True)
+
+
+
+# Education Section
+st.markdown('<div class="header"><h2 class="medium-font">Education</h2></div>', unsafe_allow_html=True)
+
+edu_col1, edu_col2 = st.columns(2)
+
+with edu_col1:
+    st.markdown("""
+    <div style="background-color: #ffffff10; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
+        <h3 style="color: #F3A5C8; font-weight: bold;">Robotics Engineer</h3>
+        <p class="small-font">
+            <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
+            Master of Science in Robotics (MSE)<br>
+            Aug 2023 – Dec 2025<br>
+            GPA: 3.67/4.00<br>
+            <em>Relevant Coursework:</em> Machine Learning, Computer Vision, Linear Systems Theory, HCI
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with edu_col2:
+    st.markdown("""
+    <div style="background-color: #ffffff10; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
+        <h3 style="color: #F3A5C8; font-weight: bold;">Mechanical Engineer</h3>
+        <p class="small-font">
+            <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
+            Bachelor of Technology in Mechanical Engineering<br>
+            Aug 2019 – June 2023<br>
+            GPA: 3.65/4.00
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+
+
+
 
     # Technical Skills Section
     st.markdown('<div class="header"><h2 class="medium-font">Technical Skills</h2></div>', unsafe_allow_html=True)
