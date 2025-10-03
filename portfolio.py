@@ -129,7 +129,6 @@ st.markdown("""
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 """, unsafe_allow_html=True)
 
-st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
 
 with st.container():
 
@@ -147,13 +146,7 @@ with st.container():
             <a href="/projects" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Projects</a>
             </div>
         """, unsafe_allow_html=True)
-        '''     
-        st.markdown("""
-        <a href="/interests" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Interests</a>
-        <a href="/passions" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Passions</a>
-        </div>
-    """, unsafe_allow_html=True)
-'''
+       
     # Content row with quote and image
     
     
