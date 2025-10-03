@@ -136,7 +136,7 @@ with st.container():
     
     with header_col1:
         st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
-    
+    ''''
     with header_col2:
         st.markdown("""
         <div style="text-align: right; margin-top: 30px;">
@@ -145,7 +145,7 @@ with st.container():
             <a href="/passions" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Passions</a>
         </div>
         """, unsafe_allow_html=True)
-
+'''
     # Content row with quote and image
     
     
