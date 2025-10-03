@@ -34,6 +34,29 @@ st.markdown(
 st.markdown(
     """
     <style>
+        /* Fade-in scroll animation */
+        .fade-in {
+        opacity: 0;
+        transform: translateY(40px);
+        animation: fadeInUp 1s ease forwards;
+        animation-delay: 0.2s;
+        visibility: visible;
+        }
+
+        .fade-in.delay {
+        animation-delay: 0.6s;
+        }
+
+        @keyframes fadeInUp {
+        from {
+        opacity: 0;
+        transform: translateY(40px);
+        }
+        to {
+        opacity: 1;
+        transform: translateY(0);
+        }
+        }
         .nav-link {
             text-decoration: none;
             font-size: 20px;
@@ -62,7 +85,7 @@ st.markdown(
 
         [data-testid="stSidebarNav"] {
         display: none !important;
-    }
+        }
 
         .big-font {
         font-size: 50px !important;
@@ -182,18 +205,19 @@ with st.container():
 
 
 
-# Education Section Title
+# Education Heading
 st.markdown("""
     <div style="padding: 40px 0 30px 0;">
         <h2 style="font-size: 48px; font-weight: 800; color: #F3A5C8; text-align: center;">Education</h2>
     </div>
 """, unsafe_allow_html=True)
 
+# Card columns
 edu_col1, edu_col2 = st.columns(2)
 
 with edu_col1:
     st.markdown("""
-        <div class="aos-box" data-aos="fade-up" style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); margin-bottom: 20px;">
+        <div class="fade-in" style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); margin-bottom: 20px;">
             <h3 style="color: #F3A5C8; font-weight: bold;">Robotics Engineer</h3>
             <p class="small-font">
                 <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
@@ -207,7 +231,7 @@ with edu_col1:
 
 with edu_col2:
     st.markdown("""
-        <div class="aos-box" data-aos="fade-up" data-aos-delay="200" style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); margin-bottom: 20px;">
+        <div class="fade-in delay" style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); margin-bottom: 20px;">
             <h3 style="color: #F3A5C8; font-weight: bold;">Mechanical Engineer</h3>
             <p class="small-font">
                 <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
