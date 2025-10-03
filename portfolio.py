@@ -131,12 +131,14 @@ st.markdown("""
 
 with st.container():
 
+    st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
+    '''
     # Header row with name and navigation
     header_col1, header_col2 = st.columns([2, 1])
     
     with header_col1:
         st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
-    ''''
+    
     with header_col2:
         st.markdown("""
         <div style="text-align: right; margin-top: 30px;">
