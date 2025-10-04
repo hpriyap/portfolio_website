@@ -190,36 +190,43 @@ with st.container():
     
 
 
-# Background wrapper for the whole education section
+# Section background color
 st.markdown("""
-    <div style="background-color: #2D2A32; padding: 60px 20px;">
+    <div style="background-color: #2D2A32; padding: 60px 20px 80px 20px;">
         <h2 style="font-size: 48px; font-weight: 800; color: #F3A5C8; text-align: center; margin-bottom: 60px;">Education</h2>
-        <div style="display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;">
-
-            <div class="fade-in" style="background-color: #F5F5F5; color: #171D1C; border-radius: 15px; padding: 30px; width: 400px; min-height: 280px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
-                <h3 style="color: #BC7C9C; font-weight: bold;">Robotics Engineer</h3>
-                <p style="font-size: 16px; line-height: 1.6;">
-                    <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
-                    Master of Science in Robotics (MSE)<br>
-                    Aug 2023 – Dec 2025<br>
-                    GPA: 3.67/4.00<br>
-                    <em>Relevant Coursework:</em> Machine Learning, Computer Vision, Linear Systems Theory, HCI
-                </p>
-            </div>
-
-            <div class="fade-in delay" style="background-color: #F5F5F5; color: #171D1C; border-radius: 15px; padding: 30px; width: 400px; min-height: 280px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
-                <h3 style="color: #BC7C9C; font-weight: bold;">Mechanical Engineer</h3>
-                <p style="font-size: 16px; line-height: 1.6;">
-                    <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
-                    Bachelor of Technology in Mechanical Engineering<br>
-                    Aug 2019 – June 2023<br>
-                    GPA: 3.65/4.00
-                </p>
-            </div>
-
-        </div>
     </div>
 """, unsafe_allow_html=True)
+
+# Now use Streamlit columns below the colored section
+edu_col1, edu_col2 = st.columns(2)
+
+with edu_col1:
+    st.markdown("""
+        <div class="fade-in" style="background-color: #F5F5F5; color: #171D1C; border-radius: 15px; padding: 30px; height: 100%%; box-shadow: 0 8px 24px rgba(0,0,0,0.3); margin-bottom: 40px;">
+            <h3 style="color: #BC7C9C; font-weight: bold;">Robotics Engineer</h3>
+            <p style="font-size: 16px; line-height: 1.6;">
+                <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
+                Master of Science in Robotics (MSE)<br>
+                Aug 2023 – Dec 2025<br>
+                GPA: 3.67/4.00<br>
+                <em>Relevant Coursework:</em> Machine Learning, Computer Vision, Linear Systems Theory, HCI
+            </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+with edu_col2:
+    st.markdown("""
+        <div class="fade-in delay" style="background-color: #F5F5F5; color: #171D1C; border-radius: 15px; padding: 30px; height: 100%%; box-shadow: 0 8px 24px rgba(0,0,0,0.3); margin-bottom: 40px;">
+            <h3 style="color: #BC7C9C; font-weight: bold;">Mechanical Engineer</h3>
+            <p style="font-size: 16px; line-height: 1.6;">
+                <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
+                Bachelor of Technology in Mechanical Engineering<br>
+                Aug 2019 – June 2023<br>
+                GPA: 3.65/4.00
+            </p>
+        </div>
+    """, unsafe_allow_html=True)
+
 
 
 
