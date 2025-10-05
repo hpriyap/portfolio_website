@@ -194,29 +194,34 @@ with st.container():
 st.markdown('<div class="header"><h2 class="medium-font">Education</h2></div>', unsafe_allow_html=True)
 
 st.markdown("""
-<div style="display: flex; gap: 30px; justify-content: space-between; align-items: stretch;">
+<div style="display: flex; gap: 30px; justify-content: space-between;">
 
     <div style="flex: 1; background-color: #ffffff10; border-radius: 15px; padding: 25px; 
-                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); display: flex; flex-direction: column; justify-content: space-between;">
+                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
         <h3 style="color: #F3A5C8; font-weight: 800; font-size: 28px; margin-bottom: 10px;">Robotics Engineer</h3>
         <p class="small-font">
             <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
             Master of Science in Robotics (MSE)<br>
-            
+            Aug 2023 – Dec 2025<br>
+            GPA: 3.67/4.00<br>
+            <em>Relevant Coursework:</em> Machine Learning, Computer Vision, Linear Systems Theory, HCI
+        </p>
     </div>
 
     <div style="flex: 1; background-color: #ffffff10; border-radius: 15px; padding: 25px; 
-                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); display: flex; flex-direction: column; justify-content: space-between;">
+                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
         <h3 style="color: #F3A5C8; font-weight: 800; font-size: 28px; margin-bottom: 10px;">Mechanical Engineer</h3>
         <p class="small-font">
             <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
             Bachelor of Technology in Mechanical Engineering<br>
-            
+            Aug 2019 – June 2023<br>
+            GPA: 3.65/4.00
         </p>
     </div>
 
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
