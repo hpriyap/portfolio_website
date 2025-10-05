@@ -190,21 +190,15 @@ with st.container():
     
 
 
-# Education Heading
 st.markdown("""
-    <div style="padding: 40px 0 30px 0;">
-        <h2 style="font-size: 48px; font-weight: 800; color: #F3A5C8; text-align: center;">Education</h2>
-    </div>
-""", unsafe_allow_html=True)
+<div style="background-color: #2D2A32; padding: 60px 5% 80px 5%;">
+    <h2 style="font-size: 48px; font-weight: 800; color: #F3A5C8; text-align: center; margin-bottom: 60px;">Education</h2>
 
-# Card columns
-edu_col1, edu_col2 = st.columns(2)
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px;">
 
-with edu_col1:
-    st.markdown("""
-        <div class="fade-in" style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); margin-bottom: 20px;">
-            <h3 style="color: #F3A5C8; font-weight: bold;">Robotics Engineer</h3>
-            <p class="small-font">
+        <div class="fade-in" style="background-color: #F5F5F5; color: #171D1C; border-radius: 15px; padding: 30px; width: 400px; min-height: 280px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+            <h3 style="color: #BC7C9C; font-weight: bold;">Robotics Engineer</h3>
+            <p style="font-size: 16px; line-height: 1.6;">
                 <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
                 Master of Science in Robotics (MSE)<br>
                 Aug 2023 – Dec 2025<br>
@@ -212,20 +206,20 @@ with edu_col1:
                 <em>Relevant Coursework:</em> Machine Learning, Computer Vision, Linear Systems Theory, HCI
             </p>
         </div>
-    """, unsafe_allow_html=True)
 
-with edu_col2:
-    st.markdown("""
-        <div class="fade-in delay" style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); margin-bottom: 20px;">
-            <h3 style="color: #F3A5C8; font-weight: bold;">Mechanical Engineer</h3>
-            <p class="small-font">
+        <div class="fade-in delay" style="background-color: #F5F5F5; color: #171D1C; border-radius: 15px; padding: 30px; width: 400px; min-height: 280px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+            <h3 style="color: #BC7C9C; font-weight: bold;">Mechanical Engineer</h3>
+            <p style="font-size: 16px; line-height: 1.6;">
                 <strong>VNR Vignana Jyothi Institute of Technology, Hyderabad, India</strong><br>
                 Bachelor of Technology in Mechanical Engineering<br>
                 Aug 2019 – June 2023<br>
                 GPA: 3.65/4.00
             </p>
         </div>
-    """, unsafe_allow_html=True)
+
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
 
 
