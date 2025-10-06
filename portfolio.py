@@ -271,7 +271,7 @@ with exp_row1_col2:
         </p>
         <p style="color: #F5F5F5; font-size: 16px;">
             Conducted market analysis by researching competitors and identifying marketing gaps to enhance the company’s global outreach. 
-            Explored potential strategic partnerships within the Steam Turbine Servicing and Manufacturing industry.
+            Explored potential strategic partnerships within the industry.
             Collaborated across departments to map end-to-end workflows, identify inefficiencies, and establish clearer roles and responsibilities — resulting in improved cross-functional communication and operational efficiency.
         </p>
     </div>
