@@ -268,22 +268,19 @@ rotaract_col1, rotaract_col2 = st.columns([3, 2])
 
 with rotaract_col1:
     st.markdown("""
-        <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; 
-                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
-            <h3 style="color: #A96DA3; font-weight: bold;">ROTARACT - Youth Wing of Rotary International</h3>
-            <p style="color: #2D2A32; font-size: 16px;">District 3150, India</p>
-            <ul style="color: #2D2A32; font-size: 16px; padding-left: 20px; list-style-type: disc;">
-                <li>Spearheaded menstrual health awareness drives by delivering educational sessions and distributing hygiene products across underserved communities.</li>
-                <li>Organized and facilitated creative educational and play-based sessions for children in 4 orphanages, promoting joyful learning environments.</li>
-                <li>Built internal club cohesion by orchestrating 5 fellowship events that strengthened team spirit and collaboration across service initiatives.</li>
-            </ul>
-        </div>
+        <h3 style="color: #A96DA3; font-weight: bold;">ROTARACT - Youth Wing of Rotary International</h3>
+        <p style="color: #F5F5F5; font-size: 16px;">District 3150, India</p>
+        <ul style="color: #F5F5F5; font-size: 16px; padding-left: 20px; list-style-type: disc;">
+            <li>Spearheaded menstrual health awareness drives by delivering educational sessions and distributing hygiene products across underserved communities.</li>
+            <li>Organized and facilitated creative educational and play-based sessions for children in 4 orphanages, promoting joyful learning environments.</li>
+            <li>Built internal club cohesion by orchestrating 5 fellowship events that strengthened team spirit and collaboration across service initiatives.</li>
+        </ul>
     """, unsafe_allow_html=True)
 
 with rotaract_col2:
     try:
-        image = Image.open("PXL_20220403_083203462.jpg")
-        st.image(image, use_column_width=True)
+        image = Image.open("rotaract.jpg")
+        st.image(image, use_container_width=True)
     except:
         st.write("")
 
@@ -295,24 +292,22 @@ livewire_col1, livewire_col2 = st.columns([2, 3])
 
 with livewire_col1:
     try:
-        image = Image.open("266A2910 (2).jpg")
-        st.image(image, use_column_width=True)
+        image = Image.open("livewire.jpg")
+        st.image(image, use_container_width=True)
     except:
         st.write("")
 
 with livewire_col2:
     st.markdown("""
-        <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; 
-                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
-            <h3 style="color: #A96DA3; font-weight: bold;">Livewire Dance Crew</h3>
-            <p style="color: #2D2A32; font-size: 16px;">Collegiate Dance Club of VNRVJIET, Hyderabad</p>
-            <ul style="color: #2D2A32; font-size: 16px; padding-left: 20px; list-style-type: disc;">
-                <li>Directed a 40-member competitive dance team, leading rehearsals, stage productions, and logistics for intercollegiate competitions — winning multiple top placements.</li>
-                <li>Oversaw budgeting and financial planning for events, costumes, and travel, ensuring efficient resource use and timely execution.</li>
-                <li>Managed creative media, including audio mixing and social media content, boosting campus visibility and community engagement.</li>
-            </ul>
-        </div>
+        <h3 style="color: #A96DA3; font-weight: bold;">Livewire Dance Crew</h3>
+        <p style="color: #F5F5F5; font-size: 16px;">Collegiate Dance Club of VNRVJIET, Hyderabad</p>
+        <ul style="color: #F5F5F5; font-size: 16px; padding-left: 20px; list-style-type: disc;">
+            <li>Directed a 40-member competitive dance team, leading rehearsals, stage productions, and logistics for intercollegiate competitions — winning multiple top placements.</li>
+            <li>Oversaw budgeting and financial planning for events, costumes, and travel, ensuring efficient resource use and timely execution.</li>
+            <li>Managed creative media, including audio mixing and social media content, boosting campus visibility and community engagement.</li>
+        </ul>
     """, unsafe_allow_html=True)
+
 
 
 
