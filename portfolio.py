@@ -194,10 +194,10 @@ edu_col1, edu_col2 = st.columns(2)
 with edu_col1:
     st.markdown("""
                 <div style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
-                <h3 style="color: #F5F5F5; font-weight: bold;">Robotics Engineer</h3>
+                <h3 style="color: #F5F5F5; font-weight: bold;">Robotics Engineering</h3>
                 <p style="color: #BC7C9C; font-size: 16px;" >
                 <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
-                Master of Science in Robotics<br>
+                Master of Science<br>
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -207,10 +207,10 @@ with edu_col1:
 with edu_col2:
     st.markdown("""
     <div style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
-        <h3 style="color: #F5F5F5; font-weight: bold;">Mechanical Engineer</h3>
+        <h3 style="color: #F5F5F5; font-weight: bold;">Mechanical Engineering</h3>
         <p style="color: #BC7C9C; font-size: 16px;">
             <strong>VNRVJIET, Hyderabad, India</strong><br>
-            Bachelor of Technology in Mechanical Engineering<br>
+            Bachelor of Technology<br>
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -226,6 +226,77 @@ st.markdown("""
             <strong>Programming Languages:</strong> Python, C, C++
         </p>
             """, unsafe_allow_html=True)
+
+
+# Experience Section
+st.markdown('<div class="header"><h2 style="color: #BC7C9C; font-size: 24px;">Experience</h2></div>', unsafe_allow_html=True)
+
+# Tile style shared by all
+tile_style = """
+    background-color: #2D2A32; 
+    border-radius: 20px; 
+    padding: 25px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+"""
+
+# Ava Robotics
+st.markdown(f"""
+<div style="{tile_style}">
+    <h3 style="color: white; font-weight: bold;">Robotics Engineer Intern</h3>
+    <p style="color: #BC7C9C; font-size: 16px;">
+        Ava Robotics, Somerville, MA<br>
+        <em>Feb 2024 – June 2024</em>
+    </p>
+    <p style="color: #F5F5F5; font-size: 16px;">
+        At Ava Robotics, I contributed to performance diagnostics, operating system upgrades, and internal API development for their telepresence robots. My work enabled smoother task execution and increased system integration efficiency.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# Swan Turbine
+st.markdown(f"""
+<div style="{tile_style}">
+    <h3 style="color: white; font-weight: bold;">Engineering Intern</h3>
+    <p style="color: #BC7C9C; font-size: 16px;">
+        Swan Turbine Services, Hyderabad, India<br>
+        <em>May 2023 – July 2023</em>
+    </p>
+    <p style="color: #F5F5F5; font-size: 16px;">
+        Supported turbine maintenance operations by managing production and inventory processes. My internship enhanced departmental collaboration and improved efficiency through better resource allocation.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# FANUC
+st.markdown(f"""
+<div style="{tile_style}">
+    <h3 style="color: white; font-weight: bold;">Trainee</h3>
+    <p style="color: #BC7C9C; font-size: 16px;">
+        FANUC, India<br>
+        <em>Oct 2022 – Nov 2022</em>
+    </p>
+    <p style="color: #F5F5F5; font-size: 16px;">
+        Learned the fundamentals of industrial robotics programming using FANUC's Roboguide software. Gained hands-on experience configuring and simulating SCARA robots for automated assembly and pick-and-place operations.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# UPenn Graduate Monitor
+st.markdown(f"""
+<div style="{tile_style}">
+    <h3 style="color: white; font-weight: bold;">Graduate Monitor</h3>
+    <p style="color: #BC7C9C; font-size: 16px;">
+        Weingarten Tutoring Center, University of Pennsylvania<br>
+        <em>Aug 2024 – Present</em>
+    </p>
+    <p style="color: #F5F5F5; font-size: 16px;">
+        Supporting students by troubleshooting technical issues in the tutoring center and optimizing the use of educational tools. I also engage with students to increase outreach and awareness of available academic support.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+'''
 
 # Experience Section
 st.markdown('<div class="header"><h2 class="medium-font">Experience</h2></div>', unsafe_allow_html=True)
@@ -260,7 +331,7 @@ st.markdown("""
         - Increased drop-in tutoring center outreach through student interactions, enhancing the academic support system.
     </p>
     """, unsafe_allow_html=True)
-
+'''
 
 
 # Beyond Engineering Section
