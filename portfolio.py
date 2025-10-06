@@ -144,15 +144,15 @@ with st.container():
         st.markdown('<h1 class="big-font">Hema Priya Pothumarthi</h1>', unsafe_allow_html=True)
     
     with header_col2:
+        
         st.markdown("""
-        <div style="text-align: right; margin-top: 30px;">
-            <a href="/Experience" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Experience</a>
-            </div>
+                    <div style="text-align: right; margin-top: 30px;">
+                    <a href="#experience-section" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Experience</a>
+                    </div>
         """, unsafe_allow_html=True)
+
        
-    # Content row with quote and image
-    
-    
+    # Content row with quote and image    
     try:
         image = Image.open("picture.jpg")
         # Resize image while maintaining aspect ratio and quality
