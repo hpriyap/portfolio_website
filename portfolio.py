@@ -206,13 +206,13 @@ with edu_col1:
 
 with edu_col2:
     st.markdown("""
-    <div style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
-        <h3 style="color: #F5F5F5; font-weight: bold;">Mechanical Engineer</h3>
-        <p class= style="color: #BC7C9C; font-size: 16px;">
-            <strong>VNRVJIET, Hyderabad, India</strong><br>
-            Bachelor of Technology in Mechanical Engineering<br>
-        </p>
-    </div>
+                <div style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
+                <h3 style="color: #F5F5F5; font-weight: bold;">Mechanical Engineer</h3>
+                <p class= style="color: #BC7C9C; font-size: 16px;">
+                <strong>VNRVJIET, Hyderabad, India</strong><br>
+                Bachelor of Technology in Mechanical Engineering<br>
+                </p>
+                </div>
     """, unsafe_allow_html=True)
 
 
@@ -263,7 +263,8 @@ st.markdown("""
 
 
 # Beyond Engineering Section
-st.markdown('<div class="header"><h2 style="color: #BC7C9C; font-size: 24px;">Beyond Engineering</h2></div>', unsafe_allow_html=True)
+st.markdown('<div class="header"><h2 "color: #BC7C9C; font-size: 24px;">Beyond Engineering</h2></div>', unsafe_allow_html=True)
+
 
 # ROTARACT: Text Left, Image Right
 rotaract_col1, rotaract_col2 = st.columns([3, 2])
