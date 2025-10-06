@@ -228,113 +228,10 @@ st.markdown("""
             """, unsafe_allow_html=True)
 
 
-# Experience Section
-st.markdown('<div class="header"><h2 style="color: #BC7C9C; font-size: 24px;">Experience</h2></div>', unsafe_allow_html=True)
 
-# Tile style shared by all
-tile_style = """
-    background-color: #2D2A32; 
-    border-radius: 20px; 
-    padding: 25px; 
-    margin-bottom: 20px; 
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-"""
-
-# Ava Robotics
-st.markdown(f"""
-<div style="{tile_style}">
-    <h3 style="color: white; font-weight: bold;">Robotics Engineer Intern</h3>
-    <p style="color: #BC7C9C; font-size: 16px;">
-        Ava Robotics, Somerville, MA<br>
-        <em>Feb 2024 – June 2024</em>
-    </p>
-    <p style="color: #F5F5F5; font-size: 16px;">
-        At Ava Robotics, I contributed to performance diagnostics, operating system upgrades, and internal API development for their telepresence robots. My work enabled smoother task execution and increased system integration efficiency.
-    </p>
-</div>
-""", unsafe_allow_html=True)
-
-# Swan Turbine
-st.markdown(f"""
-<div style="{tile_style}">
-    <h3 style="color: white; font-weight: bold;">Engineering Intern</h3>
-    <p style="color: #BC7C9C; font-size: 16px;">
-        Swan Turbine Services, Hyderabad, India<br>
-        <em>May 2023 – July 2023</em>
-    </p>
-    <p style="color: #F5F5F5; font-size: 16px;">
-        Supported turbine maintenance operations by managing production and inventory processes. My internship enhanced departmental collaboration and improved efficiency through better resource allocation.
-    </p>
-</div>
-""", unsafe_allow_html=True)
-
-# FANUC
-st.markdown(f"""
-<div style="{tile_style}">
-    <h3 style="color: white; font-weight: bold;">Trainee</h3>
-    <p style="color: #BC7C9C; font-size: 16px;">
-        FANUC, India<br>
-        <em>Oct 2022 – Nov 2022</em>
-    </p>
-    <p style="color: #F5F5F5; font-size: 16px;">
-        Learned the fundamentals of industrial robotics programming using FANUC's Roboguide software. Gained hands-on experience configuring and simulating SCARA robots for automated assembly and pick-and-place operations.
-    </p>
-</div>
-""", unsafe_allow_html=True)
-
-# UPenn Graduate Monitor
-st.markdown(f"""
-<div style="{tile_style}">
-    <h3 style="color: white; font-weight: bold;">Graduate Monitor</h3>
-    <p style="color: #BC7C9C; font-size: 16px;">
-        Weingarten Tutoring Center, University of Pennsylvania<br>
-        <em>Aug 2024 – Present</em>
-    </p>
-    <p style="color: #F5F5F5; font-size: 16px;">
-        Supporting students by troubleshooting technical issues in the tutoring center and optimizing the use of educational tools. I also engage with students to increase outreach and awareness of available academic support.
-    </p>
-</div>
-""", unsafe_allow_html=True)
-
-'''
 
 # Experience Section
-st.markdown('<div class="header"><h2 class="medium-font">Experience</h2></div>', unsafe_allow_html=True)
-st.markdown("""
-    <p class="small-font">
-        <strong>Ava Robotics, Somerville, MA</strong><br>
-        Robotics Engineer Intern<br>
-        Feb 2024 – June 2024<br>
-        - Developed troubleshooting protocols for Ava robot systems, resulting in a 11% performance improvement.<br>
-        - Updated Ava Robot’s OS and optimized resources, leading to smoother and faster task execution.<br>
-        - Developed APIs for communication between robot components and external systems, boosting system integration and task automation.<br><br>
-    </p>
-    <p class="small-font">   
-        <strong>Swan Turbine Services, Hyderabad, India</strong><br>
-        Engineering Intern<br>
-        May 2023 – July 2023<br>
-        - Assisted in managing production processes and inventory control, improving resource allocation efficiency.<br>
-        - Involved in departmental operations and project management, enhancing cross-functional workflow.<br><br>
-    </p>
-    <p class="small-font">   
-        <strong>FANUC, India</strong><br>
-        Trainee<br>
-        Oct 2022 – Nov 2022<br>
-        - Trained in programming and simulating multiple FANUC robots using Roboguide software.<br>
-        - Applied this knowledge to calibrate and train a 6-axis SCARA Robot for multiple pick-and-place and assembly operations.<br><br>
-    </p>
-    <p class="small-font">    
-        <strong>University of Pennsylvania</strong><br>
-        Graduate Monitor, Weingarten Tutoring Center<br>
-        Aug 2024 – Present<br>
-        - Enhanced tutoring experience by troubleshooting system performance issues and optimizing equipment use.<br>
-        - Increased drop-in tutoring center outreach through student interactions, enhancing the academic support system.
-    </p>
-    """, unsafe_allow_html=True)
-'''
-
-# Experience Section
-st.markdown('<div class="header"><h2 style="color: #BC7C9C; font-size: 24px;">Experience</h2></div>', unsafe_allow_html=True)
+st.markdown('<div class="header"><h2 "color: #BC7C9C; font-size: 24px;">Experience</h2></div>', unsafe_allow_html=True)
 
 # Shared style
 tile_style = """
@@ -357,7 +254,9 @@ with exp_row1_col1:
             <em>Feb 2024 – June 2024</em>
         </p>
         <p style="color: #F5F5F5; font-size: 16px;">
-            Contributed to performance diagnostics, OS upgrades, and internal API development for Ava’s telepresence robots. Enabled smoother task execution and boosted system integration.
+            Developed and deployed system diagnostics and runtime enhancements for Ava’s autonomous telepresence robots. 
+            Improved OS performance, reduced latency, and streamlined remote system access by designing secure APIs for telemetry and over-the-air updates. 
+            Collaborated with cross-functional teams to ensure the robots operated reliably and efficiently in real-world environments.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -371,7 +270,9 @@ with exp_row1_col2:
             <em>May 2023 – July 2023</em>
         </p>
         <p style="color: #F5F5F5; font-size: 16px;">
-            Supported production and inventory systems in turbine maintenance. Helped improve cross-departmental workflows and operational resource planning.
+            Conducted market analysis by researching competitors and identifying marketing gaps to enhance the company’s global outreach. 
+            Explored potential strategic partnerships within the Steam Turbine Servicing and Manufacturing industry.
+            Collaborated across departments to map end-to-end workflows, identify inefficiencies, and establish clearer roles and responsibilities — resulting in improved cross-functional communication and operational efficiency.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -406,61 +307,6 @@ with exp_row2_col2:
         </p>
     </div>
     """, unsafe_allow_html=True)
-
-
-st.markdown("""
-<div style="display: flex; gap: 30px; margin-bottom: 30px;">
-    <div style="flex: 1; background-color: #2D2A32; border-radius: 20px; padding: 25px; 
-                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
-        <h3 style="color: white; font-weight: bold;">Robotics Engineer Intern</h3>
-        <p style="color: #BC7C9C; font-size: 16px;">
-            Ava Robotics, Somerville, MA<br><em>Feb 2024 – June 2024</em>
-        </p>
-        <p style="color: #F5F5F5; font-size: 16px;">
-            Contributed to performance diagnostics, OS upgrades, and internal API development for Ava’s telepresence robots. Enabled smoother task execution and boosted system integration.
-        </p>
-    </div>
-
-    <div style="flex: 1; background-color: #2D2A32; border-radius: 20px; padding: 25px; 
-                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
-        <h3 style="color: white; font-weight: bold;">Engineering Intern</h3>
-        <p style="color: #BC7C9C; font-size: 16px;">
-            Swan Turbine Services, Hyderabad, India<br><em>May 2023 – July 2023</em>
-        </p>
-        <p style="color: #F5F5F5; font-size: 16px;">
-            Supported production and inventory systems in turbine maintenance. Helped improve cross-departmental workflows and operational resource planning.
-        </p>
-    </div>
-</div>
-""", unsafe_allow_html=True)
-
-
-st.markdown("""
-<div style="display: flex; gap: 30px;">
-    <div style="flex: 1; background-color: #2D2A32; border-radius: 20px; padding: 25px; 
-                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
-        <h3 style="color: white; font-weight: bold;">Trainee</h3>
-        <p style="color: #BC7C9C; font-size: 16px;">
-            FANUC, India<br><em>Oct 2022 – Nov 2022</em>
-        </p>
-        <p style="color: #F5F5F5; font-size: 16px;">
-            Learned programming and simulation of FANUC robots using Roboguide. Calibrated SCARA robots for real-world pick-and-place and assembly use cases.
-        </p>
-    </div>
-
-    <div style="flex: 1; background-color: #2D2A32; border-radius: 20px; padding: 25px; 
-                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
-        <h3 style="color: white; font-weight: bold;">Graduate Monitor</h3>
-        <p style="color: #BC7C9C; font-size: 16px;">
-            Weingarten Tutoring Center, University of Pennsylvania<br><em>Aug 2024 – Present</em>
-        </p>
-        <p style="color: #F5F5F5; font-size: 16px;">
-            Troubleshoot technical issues, enhance equipment utilization, and build student awareness to increase outreach of tutoring services.
-        </p>
-    </div>
-</div>
-""", unsafe_allow_html=True)
-
 
 
 
