@@ -146,7 +146,7 @@ with st.container():
     with header_col2:
         st.markdown("""
         <div style="text-align: right; margin-top: 30px;">
-            <a href="/Experience" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Projects</a>
+            <a href="/Experience" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Experience</a>
             </div>
         """, unsafe_allow_html=True)
        
@@ -234,7 +234,7 @@ st.markdown("""
 
 
 # Add this line above the Experience heading
-st.markdown('<div id="experience-section"></div>', unsafe_allow_html=True)
+st.markdown('<div id="Experience"></div>', unsafe_allow_html=True)
 
 # Experience Section
 st.markdown('<div class="header"><h2 "color: #BC7C9C; font-size: 24px;">Experience</h2></div>', unsafe_allow_html=True)
