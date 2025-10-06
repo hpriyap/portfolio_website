@@ -34,6 +34,11 @@ st.markdown(
 st.markdown(
     """
     <style>
+
+        html {
+        scroll-behavior: smooth;
+        }
+
         /* Fade-in scroll animation */
         .fade-in {
         opacity: 0;
@@ -141,7 +146,7 @@ with st.container():
     with header_col2:
         st.markdown("""
         <div style="text-align: right; margin-top: 30px;">
-            <a href="/projects" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Projects</a>
+            <a href="/Experience" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Projects</a>
             </div>
         """, unsafe_allow_html=True)
        
@@ -228,7 +233,8 @@ st.markdown("""
             """, unsafe_allow_html=True)
 
 
-
+# Add this line above the Experience heading
+st.markdown('<div id="experience-section"></div>', unsafe_allow_html=True)
 
 # Experience Section
 st.markdown('<div class="header"><h2 "color: #BC7C9C; font-size: 24px;">Experience</h2></div>', unsafe_allow_html=True)
