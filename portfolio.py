@@ -192,8 +192,8 @@ with st.container():
 
 # Education Section
 st.markdown('<div class="header"><h2 "color: #BC7C9C; font-size: 24px;">Education</h2></div>', unsafe_allow_html=True)
-edu_col1, edu_col2 = st.columns(2)
 
+edu_col1, edu_col2 = st.columns(2)
 
 with edu_col1:
     st.markdown("""
