@@ -260,6 +260,8 @@ st.markdown("""
     </p>
     """, unsafe_allow_html=True)
 
+
+
 # Beyond Engineering Section
 st.markdown('<div class="header"><h2 style="color: #BC7C9C; font-size: 24px;">Beyond Engineering</h2></div>', unsafe_allow_html=True)
 
@@ -268,18 +270,20 @@ rotaract_col1, rotaract_col2 = st.columns([3, 2])
 
 with rotaract_col1:
     st.markdown("""
-        <h3 style="color: #A96DA3; font-weight: bold;">ROTARACT - Youth Wing of Rotary International</h3>
-        <p style="color: #F5F5F5; font-size: 16px;">District 3150, India</p>
-        <ul style="color: #F5F5F5; font-size: 16px; padding-left: 20px; list-style-type: disc;">
-            <li>Spearheaded menstrual health awareness drives by delivering educational sessions and distributing hygiene products across underserved communities.</li>
-            <li>Organized and facilitated creative educational and play-based sessions for children in 4 orphanages, promoting joyful learning environments.</li>
-            <li>Built internal club cohesion by orchestrating 5 fellowship events that strengthened team spirit and collaboration across service initiatives.</li>
-        </ul>
+        <div style="padding: 30px 40px;">
+            <h3 style="color: #A96DA3; font-weight: bold;">ROTARACT - Youth Wing of Rotary International</h3>
+            <p style="color: #F5F5F5; font-size: 16px;"><strong>District 3150, India</strong></p>
+            <p style="color: #F5F5F5; font-size: 16px;">
+            As a committed member of ROTARACT, I led impactful social initiatives that addressed women’s health education and youth engagement. 
+                I spearheaded menstrual hygiene awareness drives, delivering educational sessions and distributing hygiene kits in under-resourced communities. 
+                I also organized interactive, play-based learning sessions in four orphanages, helping foster curiosity and joy among the children. Beyond outreach, I strengthened internal club spirit by planning and executing five fellowship events that deepened team cohesion and collective impact.
+            </p>
+        </div>
     """, unsafe_allow_html=True)
 
 with rotaract_col2:
     try:
-        image = Image.open("rotaract.jpg")
+        image = Image.open("PXL_20220403_083203462.jpg")
         st.image(image, use_container_width=True)
     except:
         st.write("")
@@ -292,48 +296,19 @@ livewire_col1, livewire_col2 = st.columns([2, 3])
 
 with livewire_col1:
     try:
-        image = Image.open("livewire.jpg")
+        image = Image.open("266A2910 (2).jpg")
         st.image(image, use_container_width=True)
     except:
         st.write("")
 
 with livewire_col2:
     st.markdown("""
-        <h3 style="color: #A96DA3; font-weight: bold;">Livewire Dance Crew</h3>
-        <p style="color: #F5F5F5; font-size: 16px;">Collegiate Dance Club of VNRVJIET, Hyderabad</p>
-        <ul style="color: #F5F5F5; font-size: 16px; padding-left: 20px; list-style-type: disc;">
-            <li>Directed a 40-member competitive dance team, leading rehearsals, stage productions, and logistics for intercollegiate competitions — winning multiple top placements.</li>
-            <li>Oversaw budgeting and financial planning for events, costumes, and travel, ensuring efficient resource use and timely execution.</li>
-            <li>Managed creative media, including audio mixing and social media content, boosting campus visibility and community engagement.</li>
-        </ul>
+        <div style="padding: 30px 40px;">
+            <h3 style="color: #A96DA3; font-weight: bold;">Livewire Dance Crew</h3>
+            <p style="color: #F5F5F5; font-size: 16px;"><strong>Collegiate Dance Club of VNRVJIET, Hyderabad</strong></p>
+            <p style="color: #F5F5F5; font-size: 16px;">
+            As the lead organizer of Livewire Dance Crew, I managed a vibrant team of 40 dancers, coordinating practices, competitions, and live events that consistently secured top spots at collegiate festivals. 
+                I was also responsible for financial planning—overseeing event budgets, costume logistics, and travel coordination. On the creative front, I edited audio tracks and managed our digital presence, significantly expanding our outreach and fostering a strong sense of identity within the campus arts community.
+            </p>
+        </div>
     """, unsafe_allow_html=True)
-
-
-
-
-
-'''
-
-    # Leadership Section
-st.markdown('<div class="header"><h2 class="medium-font">Leadership</h2></div>', unsafe_allow_html=True)
-st.markdown("""
-    <p class="small-font">
-        <strong>ROTARACT - Youth Wing of Rotary International, District 3150, India</strong><br>
-        - Organized community service events focusing on women’s menstrual health awareness and conducted educational and entertainment sessions for children across 4 orphanages.<br>
-        - Fostered camaraderie and cohesion within the club by orchestrating 5 fellowship events.<br><br>
-    </p>
-    <p class="small-font">    
-        <strong>Livewire Dance Crew, Collegiate Dance Club of VNRVJIET, Hyderabad</strong><br>
-        - Managed and organized a team of 40 dancers, leading Livewire Dance Crew to multiple victories and enhancing its reputation.<br>
-        - Handled finances, edited audio tracks, and managed social media ensuring efficient operations and increased crew reach.
-    </p>
-    """, unsafe_allow_html=True)
-
-    # Footer Section
-st.markdown("""
-    <p class="small-font" style="text-align: center;">
-        &copy; 2024 Hema Priya Pothumarthi. All rights reserved.
-    </p>
-    """, unsafe_allow_html=True)
-
-'''
