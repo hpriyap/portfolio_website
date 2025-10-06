@@ -226,7 +226,7 @@ st.markdown("""
         </p>
             """, unsafe_allow_html=True)
 
-    # Experience Section
+# Experience Section
 st.markdown('<div class="header"><h2 class="medium-font">Experience</h2></div>', unsafe_allow_html=True)
 st.markdown("""
     <p class="small-font">
