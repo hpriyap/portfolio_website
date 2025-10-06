@@ -147,7 +147,7 @@ with st.container():
         
         st.markdown("""
                     <div style="text-align: right; margin-top: 30px;">
-                    <a href="#experience-section" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Experience</a>
+                    <a href="#Experience" style="color: #BC7C9C; text-decoration: none; margin: 0 10px; font-size: 22px; font-weight: 500;">Experience</a>
                     </div>
         """, unsafe_allow_html=True)
 
