@@ -282,7 +282,7 @@ with rotaract_col1:
 
 with rotaract_col2:
     try:
-        image = Image.open("rotaract.jpg")
+        image = Image.open("PXL_20220403_083203462.jpg")
         st.image(image, use_column_width=True)
     except:
         st.write("")
@@ -295,7 +295,7 @@ livewire_col1, livewire_col2 = st.columns([2, 3])
 
 with livewire_col1:
     try:
-        image = Image.open("livewire.jpg")
+        image = Image.open("266A2910 (2).jpg")
         st.image(image, use_column_width=True)
     except:
         st.write("")
