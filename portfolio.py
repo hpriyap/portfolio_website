@@ -408,6 +408,64 @@ with exp_row2_col2:
     """, unsafe_allow_html=True)
 
 
+st.markdown("""
+<div style="display: flex; gap: 30px; margin-bottom: 30px;">
+    <div style="flex: 1; background-color: #2D2A32; border-radius: 20px; padding: 25px; 
+                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+        <h3 style="color: white; font-weight: bold;">Robotics Engineer Intern</h3>
+        <p style="color: #BC7C9C; font-size: 16px;">
+            Ava Robotics, Somerville, MA<br><em>Feb 2024 – June 2024</em>
+        </p>
+        <p style="color: #F5F5F5; font-size: 16px;">
+            Contributed to performance diagnostics, OS upgrades, and internal API development for Ava’s telepresence robots. Enabled smoother task execution and boosted system integration.
+        </p>
+    </div>
+
+    <div style="flex: 1; background-color: #2D2A32; border-radius: 20px; padding: 25px; 
+                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+        <h3 style="color: white; font-weight: bold;">Engineering Intern</h3>
+        <p style="color: #BC7C9C; font-size: 16px;">
+            Swan Turbine Services, Hyderabad, India<br><em>May 2023 – July 2023</em>
+        </p>
+        <p style="color: #F5F5F5; font-size: 16px;">
+            Supported production and inventory systems in turbine maintenance. Helped improve cross-departmental workflows and operational resource planning.
+        </p>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+
+st.markdown("""
+<div style="display: flex; gap: 30px;">
+    <div style="flex: 1; background-color: #2D2A32; border-radius: 20px; padding: 25px; 
+                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+        <h3 style="color: white; font-weight: bold;">Trainee</h3>
+        <p style="color: #BC7C9C; font-size: 16px;">
+            FANUC, India<br><em>Oct 2022 – Nov 2022</em>
+        </p>
+        <p style="color: #F5F5F5; font-size: 16px;">
+            Learned programming and simulation of FANUC robots using Roboguide. Calibrated SCARA robots for real-world pick-and-place and assembly use cases.
+        </p>
+    </div>
+
+    <div style="flex: 1; background-color: #2D2A32; border-radius: 20px; padding: 25px; 
+                min-height: 250px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+        <h3 style="color: white; font-weight: bold;">Graduate Monitor</h3>
+        <p style="color: #BC7C9C; font-size: 16px;">
+            Weingarten Tutoring Center, University of Pennsylvania<br><em>Aug 2024 – Present</em>
+        </p>
+        <p style="color: #F5F5F5; font-size: 16px;">
+            Troubleshoot technical issues, enhance equipment utilization, and build student awareness to increase outreach of tutoring services.
+        </p>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+
+
+
+
+
 # Beyond Engineering Section
 st.markdown('<div class="header"><h2 "color: #BC7C9C; font-size: 24px;">Beyond Engineering</h2></div>', unsafe_allow_html=True)
 
