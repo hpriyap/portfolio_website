@@ -251,7 +251,6 @@ with exp_row1_col1:
         <h3 style="color: white; font-weight: bold;">Robotics Engineer Intern</h3>
         <p style="color: #BC7C9C; font-size: 16px;">
             Ava Robotics, Somerville, MA<br>
-            <em>Feb 2024 – June 2024</em>
         </p>
         <p style="color: #F5F5F5; font-size: 16px;">
             Developed and deployed system diagnostics and runtime enhancements for Ava’s autonomous telepresence robots. 
@@ -267,7 +266,6 @@ with exp_row1_col2:
         <h3 style="color: white; font-weight: bold;">Engineering Intern</h3>
         <p style="color: #BC7C9C; font-size: 16px;">
             Swan Turbine Services, Hyderabad, India<br>
-            <em>May 2023 – July 2023</em>
         </p>
         <p style="color: #F5F5F5; font-size: 16px;">
             Conducted market analysis by researching competitors and identifying marketing gaps to enhance the company’s global outreach. 
@@ -286,7 +284,6 @@ with exp_row2_col1:
         <h3 style="color: white; font-weight: bold;">Trainee</h3>
         <p style="color: #BC7C9C; font-size: 16px;">
             FANUC, India<br>
-            <em>Oct 2022 – Nov 2022</em>
         </p>
         <p style="color: #F5F5F5; font-size: 16px;">
             Learned programming and simulation of FANUC robots using Roboguide. Calibrated SCARA robots for real-world pick-and-place and assembly use cases.
@@ -300,7 +297,6 @@ with exp_row2_col2:
         <h3 style="color: white; font-weight: bold;">Graduate Monitor</h3>
         <p style="color: #BC7C9C; font-size: 16px;">
             Weingarten Tutoring Center, University of Pennsylvania<br>
-            <em>Aug 2024 – Present</em>
         </p>
         <p style="color: #F5F5F5; font-size: 16px;">
             Troubleshoot technical issues, enhance equipment utilization, and build student awareness to increase outreach of tutoring services.
