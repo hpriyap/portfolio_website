@@ -198,9 +198,9 @@ edu_col1, edu_col2 = st.columns(2)
 
 with edu_col1:
     st.markdown("""
-                <div style="background-color: #BC7C9C; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
-                <h3 style="color: #171D1C; font-weight: bold;">Robotics Engineering</h3>
-                <p style="color: #2D2A32; font-size: 16px;" >
+                <div style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
+                <h3 style="color: #F5F5F5; font-weight: bold;">Robotics Engineering</h3>
+                <p style="color: #BC7C9C; font-size: 16px;" >
                 <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
                 Master of Science<br>
         </p>
