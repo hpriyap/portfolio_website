@@ -193,9 +193,9 @@ edu_col1, edu_col2 = st.columns(2)
 
 with edu_col1:
     st.markdown("""
-                <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
-                <h3 style="color: #A96DA3; font-weight: bold;">Robotics Engineer</h3>
-                <p style="color: #2D2A32; font-size: 16px;" >
+                <div style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
+                <h3 style="color: #F5F5F5; font-weight: bold;">Robotics Engineer</h3>
+                <p style="color: #BC7C9C; font-size: 16px;" >
                 <strong>University of Pennsylvania, Philadelphia, PA</strong><br>
                 Master of Science in Robotics<br>
         </p>
@@ -206,9 +206,9 @@ with edu_col1:
 
 with edu_col2:
     st.markdown("""
-    <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
-        <h3 style="color: #A96DA3; font-weight: bold;">Mechanical Engineer</h3>
-        <p class= style="color: #2D2A32; font-size: 16px;">
+    <div style="background-color: #2D2A32; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
+        <h3 style="color: #F5F5F5; font-weight: bold;">Mechanical Engineer</h3>
+        <p class= style="color: #BC7C9C; font-size: 16px;">
             <strong>VNRVJIET, Hyderabad, India</strong><br>
             Bachelor of Technology in Mechanical Engineering<br>
         </p>
@@ -275,7 +275,7 @@ with rotaract_col1:
             <p style="color: #F5F5F5; font-size: 16px;"><strong>District 3150, India</strong></p>
             <p style="color: #F5F5F5; font-size: 16px;">
             As a committed member of ROTARACT, I led impactful social initiatives that addressed women’s health education and youth engagement. 
-                I spearheaded menstrual hygiene awareness drives, delivering educational sessions and distributing hygiene kits in under-resourced communities. 
+            I spearheaded menstrual hygiene awareness drives, delivering educational sessions and distributing hygiene kits in under-resourced communities. 
                 I also organized interactive, play-based learning sessions in four orphanages, helping foster curiosity and joy among the children. Beyond outreach, I strengthened internal club spirit by planning and executing five fellowship events that deepened team cohesion and collective impact.
             </p>
         </div>
