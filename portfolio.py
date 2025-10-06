@@ -260,44 +260,59 @@ st.markdown("""
     </p>
     """, unsafe_allow_html=True)
 
-# Leadership Section
-st.markdown('<div class="header"><h2 class="medium-font" style="color: #BC7C9C;">Leadership</h2></div>', unsafe_allow_html=True)
+# Beyond Engineering Section
+st.markdown('<div class="header"><h2 style="color: #BC7C9C; font-size: 24px;">Beyond Engineering</h2></div>', unsafe_allow_html=True)
 
-# ROTARACT Tile – Left aligned
-st.markdown("""
-<div style="width: 100%; display: flex; justify-content: flex-start; margin-bottom: 30px;">
-    <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; 
-                width: 60%; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
-        <h3 style="color: #A96DA3; font-weight: bold;">ROTARACT - Youth Wing of Rotary International</h3>
-        <p style="color: #2D2A32; font-size: 16px;">
-            District 3150, India
-        </p>
-        <ul style="color: #2D2A32; font-size: 16px; padding-left: 20px; list-style-type: disc;">
-            <li>Spearheaded women’s menstrual health awareness drives, delivering informative sessions and distributing hygiene products to underprivileged communities across Hyderabad.</li>
-            <li>Organized and led engaging educational and recreational sessions for children across 4 orphanages, fostering a supportive and joyful learning environment.</li>
-            <li>Built strong bonds within the club by planning and executing 5 fellowship events, nurturing team cohesion and enhancing collaboration across service projects.</li>
-        </ul>
-    </div>
-</div>
-""", unsafe_allow_html=True)
+# ROTARACT: Text Left, Image Right
+rotaract_col1, rotaract_col2 = st.columns([3, 2])
 
-# Livewire Dance Crew Tile – Right aligned
-st.markdown("""
-<div style="width: 100%; display: flex; justify-content: flex-end;">
-    <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; 
-                width: 60%; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
-        <h3 style="color: #A96DA3; font-weight: bold;">Livewire Dance Crew</h3>
-        <p style="color: #2D2A32; font-size: 16px;">
-            Collegiate Dance Club of VNRVJIET, Hyderabad
-        </p>
-        <ul style="color: #2D2A32; font-size: 16px; padding-left: 20px; list-style-type: disc;">
-            <li>Led and managed a crew of 40 dancers, organizing rehearsals, logistics, and performances that resulted in multiple wins at intercollegiate dance competitions.</li>
-            <li>Streamlined the team’s finances, oversaw budget allocations, and managed expenses for events and travel.</li>
-            <li>Took charge of creative tasks like editing music tracks and running the crew’s social media presence, resulting in increased visibility and engagement across campus.</li>
-        </ul>
-    </div>
-</div>
-""", unsafe_allow_html=True)
+with rotaract_col1:
+    st.markdown("""
+        <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; 
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+            <h3 style="color: #A96DA3; font-weight: bold;">ROTARACT - Youth Wing of Rotary International</h3>
+            <p style="color: #2D2A32; font-size: 16px;">District 3150, India</p>
+            <ul style="color: #2D2A32; font-size: 16px; padding-left: 20px; list-style-type: disc;">
+                <li>Spearheaded menstrual health awareness drives by delivering educational sessions and distributing hygiene products across underserved communities.</li>
+                <li>Organized and facilitated creative educational and play-based sessions for children in 4 orphanages, promoting joyful learning environments.</li>
+                <li>Built internal club cohesion by orchestrating 5 fellowship events that strengthened team spirit and collaboration across service initiatives.</li>
+            </ul>
+        </div>
+    """, unsafe_allow_html=True)
+
+with rotaract_col2:
+    try:
+        image = Image.open("rotaract.jpg")
+        st.image(image, use_column_width=True)
+    except:
+        st.write("")
+
+# Spacer
+st.markdown("<br>", unsafe_allow_html=True)
+
+# LIVEWIRE: Image Left, Text Right
+livewire_col1, livewire_col2 = st.columns([2, 3])
+
+with livewire_col1:
+    try:
+        image = Image.open("livewire.jpg")
+        st.image(image, use_column_width=True)
+    except:
+        st.write("")
+
+with livewire_col2:
+    st.markdown("""
+        <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; 
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+            <h3 style="color: #A96DA3; font-weight: bold;">Livewire Dance Crew</h3>
+            <p style="color: #2D2A32; font-size: 16px;">Collegiate Dance Club of VNRVJIET, Hyderabad</p>
+            <ul style="color: #2D2A32; font-size: 16px; padding-left: 20px; list-style-type: disc;">
+                <li>Directed a 40-member competitive dance team, leading rehearsals, stage productions, and logistics for intercollegiate competitions — winning multiple top placements.</li>
+                <li>Oversaw budgeting and financial planning for events, costumes, and travel, ensuring efficient resource use and timely execution.</li>
+                <li>Managed creative media, including audio mixing and social media content, boosting campus visibility and community engagement.</li>
+            </ul>
+        </div>
+    """, unsafe_allow_html=True)
 
 
 
