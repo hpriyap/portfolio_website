@@ -125,9 +125,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown("""
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-""", unsafe_allow_html=True)
+
 
 
 with st.container():
@@ -173,9 +171,7 @@ with st.container():
     with content_col2:
         st.image(image, use_container_width=True)
  
-    
 
-    
     
     st.markdown("""
                 <h2 class="medium-font" style="margin-top: 10px;">About Me</h2>
@@ -264,7 +260,42 @@ st.markdown("""
     </p>
     """, unsafe_allow_html=True)
 
+# Leadership Section
+st.markdown('<div class="header"><h2 class="medium-font" style="color: #BC7C9C;">Leadership</h2></div>', unsafe_allow_html=True)
 
+# ROTARACT Tile – Left aligned
+st.markdown("""
+<div style="width: 100%; display: flex; justify-content: flex-start; margin-bottom: 30px;">
+    <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; 
+                width: 60%; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+        <h3 style="color: #A96DA3; font-weight: bold;">ROTARACT - Youth Wing of Rotary International</h3>
+        <p style="color: #2D2A32; font-size: 16px;">
+            District 3150, India<br><br>
+            - Organized community service events focusing on women’s menstrual health awareness and conducted educational and entertainment sessions for children across 4 orphanages.<br>
+            - Fostered camaraderie and cohesion within the club by orchestrating 5 fellowship events.
+        </p>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+# Livewire Dance Crew Tile – Right aligned
+st.markdown("""
+<div style="width: 100%; display: flex; justify-content: flex-end;">
+    <div style="background-color: #F5F5F5; border-radius: 15px; padding: 25px; 
+                width: 60%; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+        <h3 style="color: #A96DA3; font-weight: bold;">Livewire Dance Crew</h3>
+        <p style="color: #2D2A32; font-size: 16px;">
+            Collegiate Dance Club of VNRVJIET, Hyderabad<br><br>
+            - Managed and organized a team of 40 dancers, leading Livewire Dance Crew to multiple victories and enhancing its reputation.<br>
+            - Handled finances, edited audio tracks, and managed social media ensuring efficient operations and increased crew reach.
+        </p>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+
+
+'''
 
     # Leadership Section
 st.markdown('<div class="header"><h2 class="medium-font">Leadership</h2></div>', unsafe_allow_html=True)
@@ -288,14 +319,4 @@ st.markdown("""
     </p>
     """, unsafe_allow_html=True)
 
-
-# Run AOS script at the end so it doesn't break layout
-st.markdown("""
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000,
-            once: true
-        });
-    </script>
-""", unsafe_allow_html=True)
+'''
