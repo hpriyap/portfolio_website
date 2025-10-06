@@ -270,10 +270,13 @@ st.markdown("""
                 width: 60%; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
         <h3 style="color: #A96DA3; font-weight: bold;">ROTARACT - Youth Wing of Rotary International</h3>
         <p style="color: #2D2A32; font-size: 16px;">
-            District 3150, India<br><br>
-            - Organized community service events focusing on women’s menstrual health awareness and conducted educational and entertainment sessions for children across 4 orphanages.<br>
-            - Fostered camaraderie and cohesion within the club by orchestrating 5 fellowship events.
+            District 3150, India
         </p>
+        <ul style="color: #2D2A32; font-size: 16px; padding-left: 20px; list-style-type: disc;">
+            <li>Spearheaded women’s menstrual health awareness drives, delivering informative sessions and distributing hygiene products to underprivileged communities across Hyderabad.</li>
+            <li>Organized and led engaging educational and recreational sessions for children across 4 orphanages, fostering a supportive and joyful learning environment.</li>
+            <li>Built strong bonds within the club by planning and executing 5 fellowship events, nurturing team cohesion and enhancing collaboration across service projects.</li>
+        </ul>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -285,13 +288,17 @@ st.markdown("""
                 width: 60%; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
         <h3 style="color: #A96DA3; font-weight: bold;">Livewire Dance Crew</h3>
         <p style="color: #2D2A32; font-size: 16px;">
-            Collegiate Dance Club of VNRVJIET, Hyderabad<br><br>
-            - Managed and organized a team of 40 dancers, leading Livewire Dance Crew to multiple victories and enhancing its reputation.<br>
-            - Handled finances, edited audio tracks, and managed social media ensuring efficient operations and increased crew reach.
+            Collegiate Dance Club of VNRVJIET, Hyderabad
         </p>
+        <ul style="color: #2D2A32; font-size: 16px; padding-left: 20px; list-style-type: disc;">
+            <li>Led and managed a crew of 40 dancers, organizing rehearsals, logistics, and performances that resulted in multiple wins at intercollegiate dance competitions.</li>
+            <li>Streamlined the team’s finances, oversaw budget allocations, and managed expenses for events and travel.</li>
+            <li>Took charge of creative tasks like editing music tracks and running the crew’s social media presence, resulting in increased visibility and engagement across campus.</li>
+        </ul>
     </div>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
