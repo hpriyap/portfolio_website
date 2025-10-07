@@ -232,7 +232,7 @@ st.markdown(
     f"""
     <div style="width: 100%; margin: 40px 0;">
         <img src="data:image/png;base64,{encoded}" 
-             style="width: 100%; height: auto; border-radius: 15px;" 
+             style="width: 150%; height: auto; border-radius: 15px;" 
              alt="Skills Background">
     </div>
     """,
