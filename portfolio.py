@@ -221,6 +221,23 @@ with edu_col2:
     """, unsafe_allow_html=True)
 
 
+from base64 import b64encode
+
+# Load and encode the local image
+with open("skills image.PNG", "rb") as img_file:
+    encoded = b64encode(img_file.read()).decode()
+
+# Display the image full-width
+st.markdown(
+    f"""
+    <div style="width: 100%; margin: 40px 0;">
+        <img src="data:image/png;base64,{encoded}" 
+             style="width: 100%; height: auto; border-radius: 15px;" 
+             alt="Skills Background">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # Add this line above the Experience heading
